@@ -105,6 +105,18 @@ body {
     justify-content: start;
 }
 
+.contact-info__item.inactive {
+    cursor: auto;
+}
+
+.contact-info__item:hover {
+    color: var(--primary-text-color);
+}
+
+.contact-info__item.inactive:hover {
+    color: var(--secondary-text-color);
+}
+
 .contact-info__item:not(:last-child) {
     margin-bottom: 20px;
 }
